@@ -56,7 +56,7 @@
 <img src = "https://github.com/danbin920404/BungsegwonPortfolio/blob/main/image/FlowChart.png" width = "800" height = "550" />
 
 * 2차 기획 UI
-	* iOS, Android
+	* Android, iOS
 
 <img src = "https://github.com/danbin920404/BungsegwonPortfolio/blob/main/image/UI_2.png" width = "800" height = "550" />
 
@@ -133,9 +133,11 @@
 
 - 6. 회원가입 및 로그인
 	- 애플, 구글 sns로그인 및 회원가입 기능
-		-	1. 해당 sns에 이메일과 비밀번호를 입력하고 로그인이 되어있다면 로그인을 하고 기존에 보고 있던 페이지로 이동하고 Network통신으로 찜, 등록한 가게, 쓴 댓글 받아옴
-		-	2. 기존 회원이 아니라면 닉네임 설정 페이지로 이동
+		- 1. 해당 sns에 이메일과 비밀번호를 입력하고 로그인이 되어있다면 로그인을 하고 기존에 보고 있던 페이지로 이동하고 Network통신으로 찜, 등록한 가게, 쓴 댓글 받아옴
+		- 2. 기존 회원이 아니라면 닉네임 설정 페이지로 이동
 			- 설정한 닉네임이 중복인지 확인 후 회원가입 완료
 			- 닉네임을 작성하지 않을 경우 빨간색으로 표현
 			- 유저의 정보를 Network통신으로 보냄
 ```
+
+- 기능구현 및 뷰 완성마다 커밋을 남기고 싶었으나 api키 및 sdk키가 노출될 수도 있다고 판단되어 커밋을 남기지 않고 로컬에 폴더를 나눠서 구현을 했습니다 양해 부탁드립니다.
